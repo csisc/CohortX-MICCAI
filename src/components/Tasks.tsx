@@ -6,6 +6,7 @@ const tasks = [
   {
     id: 'task1',
     title: 'Task 1: Extracting Cohort Selection Criteria from Free Texts',
+    url: 'https://www.kaggle.com/competitions/cohort-x-task-1',
     icon: <FileText className="w-5 h-5" />,
     abstract: 'Develop low-resource automated systems capable of identifying key cohort selection criteria from biomedical literature (PMC full texts). Focuses on NLP approaches combining number recognition, semantic similarity, and context-aware text parsing.',
     platform: 'Kaggle',
@@ -17,6 +18,7 @@ const tasks = [
   {
     id: 'task2',
     title: 'Task 2: Structuring Cohort Eligibility Criteria in the form of Triples',
+    url: 'https://www.kaggle.com/competitions/cohort-x-task-2',
     icon: <Network className="w-5 h-5" />,
     abstract: 'Automatic transformation of free-text eligibility criteria into a structured yet human-readable, triple-based format. Segment eligibility criteria into inclusion and exclusion sets, identify individual criteria, and assign descriptive attributes.',
     platform: 'Kaggle',
@@ -79,7 +81,7 @@ export default function Tasks() {
                 <div className={`mt-0.5 ${activeTask === task.id ? 'text-white' : 'text-blue-600'}`}>
                   {task.icon}
                 </div>
-                <span className="font-semibold text-sm sm:text-base leading-snug">{task.title}</span>
+                <span className="font-semibold text-sm sm:text-base leading-snug"><a href={task.url}>{task.title}</a></span>
               </button>
             ))}
           </div>
