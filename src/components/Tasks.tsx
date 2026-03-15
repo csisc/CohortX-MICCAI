@@ -81,7 +81,7 @@ export default function Tasks() {
                 <div className={`mt-0.5 ${activeTask === task.id ? 'text-white' : 'text-blue-600'}`}>
                   {task.icon}
                 </div>
-                <span className="font-semibold text-sm sm:text-base leading-snug"><a href={task.url}>{task.title}</a></span>
+                <span className="font-semibold text-sm sm:text-base leading-snug">{task.title}</span>
               </button>
             ))}
           </div>
@@ -102,7 +102,7 @@ export default function Tasks() {
                     <div className="flex items-center justify-between mb-6">
                       <h3 className="text-2xl font-bold text-gray-900 pr-4">{task.title}</h3>
                       <span className="hidden sm:inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-indigo-50 text-indigo-700 border border-indigo-100 whitespace-nowrap">
-                        {task.platform}
+                        <a href={task.url}>See on {task.platform}</a>
                       </span>
                     </div>
                     
