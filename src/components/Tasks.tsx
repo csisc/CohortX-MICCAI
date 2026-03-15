@@ -28,6 +28,7 @@ const tasks = [
   {
     id: 'task3',
     title: 'Task 3: Resolving Medical Conditions to ICD-10-CM Codes',
+    url: 'https://www.kaggle.com/competitions/cohort-x-task-3',
     icon: <Database className="w-5 h-5" />,
     abstract: 'Automatically identify all relevant ICD-10-CM codes corresponding to a given medical condition name. Challenges algorithms to model semantic relatedness, hierarchical relationships, and clinical specificity within large medical ontologies.',
     platform: 'Kaggle',
