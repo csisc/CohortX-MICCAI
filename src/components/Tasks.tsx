@@ -34,7 +34,7 @@ const tasks = [
     icon: <Database className="w-5 h-5" />,
     abstract: 'Automatically identify all relevant ICD-10-CM codes corresponding to a given medical condition name. Challenges algorithms to model semantic relatedness, hierarchical relationships, and clinical specificity within large medical ontologies.',
     platform: 'Kaggle',
-    dataset: 'Sample: 5, Test: 25 cases. Data derived from scholarly publications (Google Scholar Labs Service) with human validation.',
+    dataset: 'Sample: 5, Test: 23 cases. Data derived from scholarly publications (Google Scholar Labs Service) with human validation.',
     metrics: 'F1-Score assessing precision and recall in identifying ICD-10-CM codes.',
     prizes: ['1st: $120', '2nd: $100', '3rd: $80'],
     participation: 'Pre-processing permitted offline. Code submission on Kaggle.'
