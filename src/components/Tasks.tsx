@@ -42,6 +42,7 @@ const tasks = [
   {
     id: 'task4',
     title: 'Task 4: Semantic Data Modeling Using Biomedical Ontologies',
+    url: 'https://openreview.net/group?id=MICCAI.org/2026/Workshop/CohortX_Task_4',
     icon: <Code className="w-5 h-5" />,
     abstract: 'Design a robust data model that converts structured eligibility criteria into a semantically rich knowledge graph. Develop ontology-aligned models using established biomedical or core ontologies (e.g., FHIR, OWL, RDFS, SKOS, OBO Foundry).',
     platform: 'OpenReview',
