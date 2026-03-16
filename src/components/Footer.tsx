@@ -55,8 +55,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} CohortX Challenge Organizers. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-gray-500">
-            <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#tasks" className="hover:text-white transition-colors">Terms & Conditions</a>
+            <a href="#tasks" className="hover:text-white transition-colors">Privacy Policy</a>
           </div>
         </div>
       </div>
