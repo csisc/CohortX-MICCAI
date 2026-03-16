@@ -2,8 +2,8 @@ import { motion } from 'motion/react';
 import { Mail } from 'lucide-react';
 
 const organizers = [
-  { name: 'Anas H. Alzahrani', affiliation: 'King Abdulaziz University, Saudi Arabia', role: 'Primary Contact' },
-  { name: 'Houcemeddine Turki', affiliation: 'University of Sfax, Tunisia', role: 'Primary Contact' },
+  { name: 'Anas H. Alzahrani', affiliation: 'King Abdulaziz University, Saudi Arabia', role: 'Primary Contact', email: 'mailto:anashalzahrani@gmail.com' },
+  { name: 'Houcemeddine Turki', affiliation: 'University of Sfax, Tunisia', role: 'Primary Contact', email: 'mailto:turkiabdelwaheb@hotmail.fr' },
   { name: 'Abdullah Altammami', affiliation: 'Rutgers University, USA' },
   { name: 'Ahmed Nebli', affiliation: 'Independent Researcher, Germany' },
   { name: 'Naveed Aman Pasha', affiliation: 'Jinnah Sindh Medical University, Pakistan' },
@@ -45,7 +45,7 @@ export default function Organizers() {
                 <div className="mt-auto">
                   <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold rounded-full border border-blue-100">
                     <Mail className="w-3 h-3" />
-                    {org.role}
+                    <a href={org.email}>{org.role}</a>
                   </span>
                 </div>
               )}
