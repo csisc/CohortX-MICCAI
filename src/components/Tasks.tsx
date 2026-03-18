@@ -49,7 +49,7 @@ const tasks = [
     dataset: '40 cases provided for semantic annotation. This is a data modelling task.',
     metrics: 'Expert-based qualitative assessment on: reproducibility, intelligibility, flexibility, and standards compliance.',
     prizes: ['1st: $120', '2nd: $100', '3rd: $80'],
-    participation: 'Submission includes a knowledge graph schema and RDF/Turtle translation of 10 examples via OpenReview.'
+    participation: 'Submission via OpenReview includes providing a visual representation of the RDF data model (e.g., graph visualization) as PDF, answering several questions about the data modeling, and filling out the Excel spreadsheet at https://github.com/csisc/CohortX/blob/main/Task_4.xlsx by writing the RDF/Turtle translation of 40 structured representation examples in the rdf column.'
   }
 ];
 
