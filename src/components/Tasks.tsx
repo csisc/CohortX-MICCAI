@@ -151,7 +151,7 @@ export default function Tasks() {
                       </div>
                       <div className="sm:hidden w-full text-right">
                         <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-indigo-50 text-indigo-700 border border-indigo-100">
-                          Platform: {task.platform}
+                          <a href={task.url}>See on {task.platform}</a>
                         </span>
                       </div>
                     </div>
