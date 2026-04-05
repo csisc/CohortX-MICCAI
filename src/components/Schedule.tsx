@@ -4,7 +4,7 @@ import { CalendarDays } from 'lucide-react';
 const timeline = [
   { date: 'April 1, 2026', title: 'Training Data Release', description: 'Release of the training cases for all tasks.' },
   { date: 'April 1, 2026', title: 'Submissions Open', description: 'Participants can start submitting their results.' },
-  { date: 'April 30, 2026', title: 'Registration Deadline', description: 'Last day to register for the challenge.' },
+  { date: 'April 30, 2026', title: 'Task 4 Registration Deadline', description: 'Last day to register for the Challenge Task 4.' },
   { date: 'July 1, 2026', title: 'Task 4 Submission Deadline', description: 'Final deadline for Task 4 submissions.' },
   { date: 'July 15, 2026', title: 'Tasks 1-3 Submission Deadline', description: 'Final deadline for Tasks 1, 2, and 3.' },
   { date: 'August 1, 2026', title: 'Results Release', description: 'Announcement of the top performing teams.' },
