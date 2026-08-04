@@ -12,6 +12,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Extracting Executable Cohort Definitions for Medical Imaging Research.
               A challenge hosted at MICCAI 2026.
+              This Challenge has been funded by the Saudi National Institute of Health (NIH).
             </p>
             <div className="flex space-x-4">
               <a href="https://x.com/anas_alzahrani" className="text-gray-500 hover:text-white transition-colors">
