@@ -7,6 +7,7 @@ const tasks = [
     id: 'task1',
     title: 'Task 1: Extracting Cohort Selection Criteria from Free Texts',
     url: 'https://www.kaggle.com/competitions/cohort-x-task-1',
+    winners: 'https://www.kaggle.com/competitions/cohort-x-task-1/leaderboard?tab=private',
     icon: <FileText className="w-5 h-5" />,
     abstract: 'Develop low-resource automated systems capable of identifying key cohort selection criteria from biomedical literature (PMC full texts). Focuses on NLP approaches combining number recognition, semantic similarity, and context-aware text parsing.',
     platform: 'Kaggle',
@@ -19,6 +20,7 @@ const tasks = [
     id: 'task2',
     title: 'Task 2: Structuring Cohort Eligibility Criteria in the form of Triples',
     url: 'https://www.kaggle.com/competitions/cohort-x-task-2',
+    winners: 'https://www.kaggle.com/competitions/cohort-x-task-2/leaderboard?tab=private',
     icon: <Network className="w-5 h-5" />,
     abstract: 'Automatic transformation of free-text eligibility criteria into a structured yet human-readable, triple-based format. Segment eligibility criteria into inclusion and exclusion sets, identify individual criteria, and assign descriptive attributes.',
     platform: 'Kaggle',
@@ -31,6 +33,7 @@ const tasks = [
     id: 'task3',
     title: 'Task 3: Resolving Medical Conditions to ICD-10-CM Codes',
     url: 'https://www.kaggle.com/competitions/cohort-x-task-3',
+    winners: 'https://www.kaggle.com/competitions/cohort-x-task-3/leaderboard?tab=private',
     icon: <Database className="w-5 h-5" />,
     abstract: 'Automatically identify all relevant ICD-10-CM codes corresponding to a given medical condition name. Challenges algorithms to model semantic relatedness, hierarchical relationships, and clinical specificity within large medical ontologies.',
     platform: 'Kaggle',
@@ -104,6 +107,9 @@ export default function Tasks() {
                       <h3 className="text-2xl font-bold text-gray-900 pr-4">{task.title}</h3>
                       <span className="hidden sm:inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-indigo-50 text-indigo-700 border border-indigo-100 whitespace-nowrap">
                         <a href={task.url}>See on {task.platform}</a>
+                      </span>
+                      <span className="hidden sm:inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-indigo-50 text-indigo-700 border border-indigo-100 whitespace-nowrap">
+                        <a href={task.winners}>Winners</a>
                       </span>
                     </div>
                     
