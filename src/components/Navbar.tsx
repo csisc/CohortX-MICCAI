@@ -41,7 +41,7 @@ export default function Navbar() {
               href="https://github.com/csisc/CohortX/raw/main/Final_Program.pdf"
               className="bg-blue-600 text-white px-5 py-2.5 rounded-xl hover:bg-blue-700 transition-colors font-medium shadow-sm"
             >
-              Challenge Showcase - Final Program
+              Challenge Showcase
             </a>
           </div>
           <div className="md:hidden flex items-center">
