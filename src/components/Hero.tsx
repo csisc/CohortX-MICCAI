@@ -27,6 +27,8 @@ export default function Hero() {
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-600 mb-10 leading-relaxed">
             A shared benchmark for extracting, structuring, and semantically representing cohort selection criteria from scholarly medical articles.
+            <br />
+            <b><a href='https://github.com/csisc/CohortX/raw/main/Final_Program.pdf'>Challenge Showcase</a></b>: October 1, 2026 
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
