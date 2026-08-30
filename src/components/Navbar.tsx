@@ -9,6 +9,7 @@ export default function Navbar() {
     { name: 'Tasks', href: '#tasks' },
     { name: 'Schedule', href: '#schedule' },
     { name: 'Organizers', href: '#organizers' },
+    { name: 'Statistics', href: 'https://github.com/csisc/CohortX/raw/main/Participation_Data.pdf' },
   ];
 
   return (
@@ -35,6 +36,12 @@ export default function Navbar() {
               className="bg-blue-600 text-white px-5 py-2.5 rounded-xl hover:bg-blue-700 transition-colors font-medium shadow-sm"
             >
               Join Challenge
+            </a>
+            <a
+              href="https://github.com/csisc/CohortX/raw/main/Final_Program.pdf"
+              className="bg-blue-600 text-white px-5 py-2.5 rounded-xl hover:bg-blue-700 transition-colors font-medium shadow-sm"
+            >
+              Challenge Showcase - Final Program
             </a>
           </div>
           <div className="md:hidden flex items-center">
