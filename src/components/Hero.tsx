@@ -49,7 +49,7 @@ export default function Hero() {
               href="https://www.youtube.com/playlist?list=PLKlA_-vZ-MVg"
               className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-xl text-red-700 bg-white border border-red-100 hover:bg-red-50 transition-all shadow-sm hover:shadow w-full sm:w-auto"
             >
-              Showcase Playlist
+              YouTube Playlist
             </a>
             
           </div>
