@@ -53,7 +53,7 @@ export default function Hero() {
             </a>
             <a
               href="https://github.com/csisc/CohortX/raw/main/Posters.pdf"
-              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-xl text-grey-700 bg-white border border-grey-100 hover:bg-grey-50 transition-all shadow-sm hover:shadow w-full sm:w-auto"
+              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-xl text-black-700 bg-white border border-black-100 hover:bg-black-50 transition-all shadow-sm hover:shadow w-full sm:w-auto"
             >
               Research Posters
             </a>
