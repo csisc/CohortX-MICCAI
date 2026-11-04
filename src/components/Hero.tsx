@@ -57,6 +57,12 @@ export default function Hero() {
             >
               Research Posters
             </a>
+            <a
+              href="https://github.com/csisc/CohortX/raw/main/Certificates.pdf"
+              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-xl text-black-700 bg-white border border-black-100 hover:bg-black-50 transition-all shadow-sm hover:shadow w-full sm:w-auto"
+            >
+              Certificates
+            </a>
           </div>
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-sm text-gray-600 font-medium">
